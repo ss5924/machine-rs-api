@@ -1,0 +1,36 @@
+## structure
+
+machine-rs
+│
+├── domain
+│ ├── src/main/java/me/songha/rs
+│ │ ├── entity
+│ │ ├── dto
+│ │ ├── service
+│ │ └── repository
+│ ├── src/main/resources
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── integration
+│ ├── src/main/java/me/songha/rs
+│ │ ├── service
+│ │ └── config (Kafka, Redis)
+│ ├── src/main/resources
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── api
+│ ├── src/main/java/me/songha/rs
+│ │ ├── resolver
+│ │ ├── input
+│ ├── src/main/resources
+│ │ └── application.properties
+│ └── pom.xml
+│
+├── client
+│ ├── src/main/java/me/songha/rs
+│ │ └── service
+│ ├── src/main/resources
+│ │ └── application.properties
+│ └── pom.xml
