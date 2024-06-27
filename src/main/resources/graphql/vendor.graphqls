@@ -1,0 +1,25 @@
+type VendorDto {
+    id: ID
+    vendorName: String
+    vendorAddress: String
+    vendorFax: String
+    createAt: String
+    updateAt: String
+}
+
+input VendorInput {
+    vendorName: String
+    vendorAddress: String
+    vendorFax: String
+}
+
+type Query {
+    getVendorById(id: ID!): VendorDto
+#    getAllVendors: [VendorDto]
+}
+
+type Mutation {
+    create(input: VendorInput): VendorDto
+#    update(id: ID!, input: VendorInput): Vendor
+#    delete(id: ID!): Boolean
+}
