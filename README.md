@@ -1,8 +1,12 @@
 # Inventory Management System
 
 ## 개요
-이 프로젝트는 재고 관리 시스템입니다. 사용자는 재고를 추가, 수정, 삭제하고, 재고 내역을 조회할 수 있습니다. 
-클라이언트와의 상호작용을 처리하는 GraphQL Resolver와 Input Class를 포함하고 있습니다.
+이 프로젝트는 재고 관리 시스템이다. 사용자는 재고를 추가, 수정, 삭제하고, 재고 내역을 조회할 수 있다. 
+클라이언트와의 상호작용을 처리하는 GraphQL Resolver와 Input 클래스를 포함하고 있다.
+
+## 목표
+프로젝트의 목표는 RESTful API로 작성된 프로젝트를 GraphQL로 전환하고, 
+구성된 인프라를 활용하여 모듈을 분리 적용하는 것이다.
 
 ## 프로젝트 구조
 - /resources/static/project_structure 참고
@@ -44,10 +48,8 @@
 
 ## To-Do List
 - [ ] CRUD 기능 개발
-- [ ] Nexus를 활용한 모듈화
-- [ ] 코드 리팩토링
 
 ## URL
 - [project repository (api)](https://github.com/ss5924/machine-rs-api)
 - [project repository (domain)](https://github.com/ss5924/machine-rs-domain)
-- [Tool (GraphiQL)](http://ss4754.iptime.org:30002/graphiql?path=/graphql)
+- [Tool (GraphiQL)](http://ss4754.iptime.org:20002/graphiql?path=/graphql)

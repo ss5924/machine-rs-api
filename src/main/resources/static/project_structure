@@ -12,10 +12,11 @@ machine-rs
 │ │ └── application.properties
 │ └── pom.xml
 │
-├── integration
+├── cache-api
 │ ├── src/main/java/me/songha/rs
 │ │ ├── service
-│ │ └── config (Kafka, Redis)
+│ │ ├── controller
+│ │ └── config (Redis)
 │ ├── src/main/resources
 │ │ └── application.properties
 │ └── pom.xml
@@ -24,6 +25,7 @@ machine-rs
 │ ├── src/main/java/me/songha/rs
 │ │ ├── resolver
 │ │ ├── input
+│ │ └── config (Kafka)
 │ ├── src/main/resources
 │ │ └── application.properties
 │ └── pom.xml
