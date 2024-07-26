@@ -49,7 +49,3 @@
 ## To-Do List
 - [ ] CRUD 기능 개발
 
-## URL
-- [project repository (api)](https://github.com/ss5924/machine-rs-api)
-- [project repository (domain)](https://github.com/ss5924/machine-rs-domain)
-- [Tool (GraphiQL)](http://ss4754.iptime.org:20002/graphiql?path=/graphql)
